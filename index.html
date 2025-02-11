@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles/output.css" />
+
+    <title>Buffalo Burguer - A melhor hamburgueria! </title>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="w-full h-[420px] bg-zinc-900 bg-home bg-cover bg-center">
+        <div class="w-full h-full flex flex-col justify-center items-center">
+            <img src="./assets/buffalo-burguer.png" alt="Logo DevBurguer"
+                class="w-32 h-32 rounded-full shadow-lg hover:scale-110 duration-200" />
+            <h1 class="text-4xl mt-4 mb-2 font-bold text-white ">
+                Buffalo Burger
+            </h1>
+
+            <span class="text-white font-medium">Rua do Hotel Santa Maria, Wenceslau Braz - PR </span>
+
+            <div class="bg-green-600 px-4 py-1 rounded-lg mt-5" id="date-span">
+                <span class="text-white font-medium">Terça a Domingo - 19 as 22 </span>
+            </div>
+        </div>
+    </header>
+    <!--  FIM HEADER -->
+
+    <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6 ">
+        Conheça nosso menu
+    </h2>
+
+    <!--INICIO MENU -->
+    <div id="menu">
+
+        <main class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
+            <!--PRODUTO INICIO-->
+            <div class="flex gap-2">
+                <img src="assets/hamb-1.png" alt="Buffalo Burguer"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300" />
+
+                <div>
+                    <P class="font-bold">Buffalo Burger</P>
+                    <p class="text-sm">Pão Selado, Maionese da Casa, 1 Hamburguer Artesanal de Carne e Bacon, Queijo
+                    </p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font bold text-lg">R$ 14.00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Buffalo Burguer"
+                            data-price="14.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <!--PRODUTO FIM-->
+            <!--PRODUTO INICIO-->
+            <div class="flex gap-2 ">
+                <img src="assets/hamb-2.png" alt="Buffalo Casual"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300" />
+
+                <div>
+                    <P class="font-bold">Buffalo Casual</P>
+                    <p class="text-sm">Pão Selado, Maionese da Casa, 1 Hamburguer Artesanal de Carne e Bacon, Queijo,
+                        Alface e Tomate </p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font bold text-lg">R$ 16.00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Buffalo Casual"
+                            data-price="16.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <!--PRODUTO FIM-->
+            <!--PRODUTO INICIO-->
+            <div class="flex gap-2 ">
+                <img src="assets/hamb-3.png" alt="Buffalo Smash"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300" />
+
+                <div>
+                    <P class="font-bold">Buffalo Smash</P>
+                    <p class="text-sm">Pão Selado, Maionese da Casa, 1 Hamburguer Artesanal de Carne e Bacon, Queijo e
+                        Cebola Caramelizada</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font bold text-lg">R$ 17.50</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Buffalo Smash"
+                            data-price="17.50">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <!--PRODUTO FIM-->
+            <!--PRODUTO INICIO-->
+            <div class="flex gap-2 ">
+                <img src="assets/hamb-4.png" alt="Buffalo Egg"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300" />
+
+                <div>
+                    <P class="font-bold">Buffalo Egg</P>
+                    <p class="text-sm">Pão Selado, Maionese da Casa, 1 Hamburguer Artesanal de Carne e Bacon, Queijo,
+                        Alface e Tomate e Ovo Frito</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font bold text-lg">R$ 17.50</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Buffalo Egg"
+                            data-price="17.50">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <!--PRODUTO FIM-->
+            <!--PRODUTO INICIO-->
+            <div class="flex gap-2 ">
+                <img src="assets/hamb-5.png" alt="Buffalo Chicken"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300" />
+
+                <div>
+                    <P class="font-bold">Buffalo Chicken</P>
+                    <p class="text-xs">Pão Selado, Maionese da Casa, 1 Hamburguer Artesanal de Carne e Bacon, Queijo,
+                        Alface, Tomate e Frango em Pedaços </p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font bold text-lg">R$ 18.50</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Buffalo Chicken"
+                            data-price="18.50">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <!--PRODUTO FIM-->
+            <!--PRODUTO INICIO-->
+            <div class="flex gap-2 ">
+                <img src="assets/hamb-6.png" alt="Buffalo Bacon BBQ"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300" />
+
+                <div>
+                    <P class="font-bold">Buffalo Bacon BBQ</P>
+                    <p class="text-sm">Pão Selado, Maionese da Casa, 1 Hamburguer Artesanal de Carne e Bacon, Queijo,
+                        Cebola Caramelizadae e Bacon </p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font bold text-lg">R$ 19.50</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Buffalo Bacon BBQ"
+                            data-price="19.50">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <!--PRODUTO FIM-->
+            <!--PRODUTO INICIO-->
+            <div class="flex gap-2 ">
+                <img src="assets/hamb-7.png" alt="Buffalo Califórnia"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300" />
+
+                <div>
+                    <P class="font-bold">Buffalo Califórnia</P>
+                    <p class="text-sm">Pão Selado, Maionese da Casa, 1 Hamburguer Artesanal de Carne e Bacon, Queijo,
+                        Alface, Tomate e Bacon </p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font bold text-lg">R$ 19.50</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Buffalo Califórnia"
+                            data-price="19.50">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <!--PRODUTO FIM-->
+            <!--PRODUTO INICIO-->
+            <div class="flex gap-2 ">
+                <img src="assets/hamb-8.png" alt="Buffalo Big Bacon"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300" />
+
+                <div>
+                    <P class="font-bold">Buffalo Big Bacon</P>
+                    <p class="text-sm">Pão Selado, Maionese da Casa, 1 Hamburguer Artesanal de Carne e Bacon, Queijo,
+                        Bacon e Cheddar </p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font bold text-lg">R$ 21.50</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Buffalo Big Bacon"
+                            data-price="21.50">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <!--PRODUTO FIM-->
+        </main>
+
+        <div class="mx-auto max-w-7xl px-2 my-2">
+            <h2 class="font-bold text-3xl">
+                Bebidas
+            </h2>
+        </div>
+
+        <!--GRID BEBIDAS-->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16 "
+            id="menu">
+
+            <!--PRODUTO BEBIDA INICIO-->
+            <div class="flex gap-2 w-full ">
+                <img src="assets/refri-1.png" alt="Coca lata"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300" />
+
+                <div class="w-full">
+                    <P class="font-bold">Coca lata</P>
+
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font bold text-lg">R$ 5.50</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Coca lata"
+                            data-price="5.50">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <!--PRODUTO BEBIDA FIM-->
+            <!--PRODUTO BEBIDA INICIO-->
+            <div class="flex gap-2 w-full ">
+                <img src="assets/refri-2.png" alt="Guarana lata"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300" />
+
+                <div class="w-full">
+                    <P class="font-bold">Guarana lata</P>
+
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font bold text-lg">R$ 5.50</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Guarana lata"
+                            data-price="5.50">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <!--PRODUTO BEBIDA FIM-->
+
+        </div>
+        <!--FIM GRID BEBIDAS-->
+
+    </div>
+    <!--FINAL MENU -->
+    
+    <!--MODAL CART -->
+        <div class="bg-black/50 w-full h-full fixed top-0 left-0 z-[99] items-center justify-center hidden" id="cart-modal">
+            <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
+                <h2 class="text-center font-bold text-3xl mb-2">Meu carrinho</h2>
+
+                <div id="cart-items" class="flex justify-between mb-2 flex-col"></div>
+
+                <p class="font-bold">Total: <span id="cart-total">0.00</span></p>
+                <p class="font-bold mt-4">Endereço de entrega</p>
+                <input type="text"
+                placeholder="Digite seu endereço completo"
+                id="address"
+                class="w-full border-2 p-1 roudned my-1"
+                />
+                <p class="text-red-600 hidden " id="address-warn">Endereço inválido</p>
+
+                <div class="flex items-center justify-between mt-5 w-full">
+                    <button id="close-modal-btn">Fechar</button>
+                    <button id="checkout-btn" class="bg-green-500 text-white px-4 py-1 rounded">Finalizar pedido</button>
+                </div>
+                
+            
+            </div>
+        </div>
+    <!--FIM MODAL CART -->
+
+    <!--BUTTON CART FOOTER-->
+    <footer class="w-full bg-red-600 py-3 fixed bottom-0 z-40 flex items-center justify-center">
+        <button class="flex items-center gap-2 text-white font-bold" 
+        id="cart-btn"
+        >
+            (<span id="cart-count"> 0 </span>)
+            Veja meu carrinho
+            <i class="fa fa-cart-plus text-lg text-white"></i>
+        </button>
+    </footer>
+    <!--FIM BUTTON CART FOOTER-->
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
