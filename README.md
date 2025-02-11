@@ -9,7 +9,7 @@ Bem-vindo ao **Cardápio Online**, um projeto desenvolvido para modernizar e fac
 ✅ Interface responsiva para desktop e mobile
 
 ## 🛠️ Tecnologias Utilizadas
-- **Frontend:** HTML, CSS, JavaScript
+- **Frontend:** HTML, CSS, JavaScript e Tailwind CSS.
 - **Backend:** (adicione aqui a tecnologia usada, ex: Node.js, Firebase...)
 - **Banco de Dados:** (se houver, ex: MySQL, MongoDB...)
 
